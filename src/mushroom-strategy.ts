@@ -21,7 +21,7 @@ import StrategyArea = generic.StrategyArea;
  * <br>
  * Check the [Repository]{@link https://github.com/AalianKhan/mushroom-strategy} for more information.
  */
-class RoundedStrategy extends HTMLTemplateElement {
+class MushroomStrategy extends HTMLTemplateElement {
   /**
    * Generate a dashboard.
    *
@@ -290,10 +290,10 @@ class RoundedStrategy extends HTMLTemplateElement {
   }
 }
 
-customElements.define("ll-strategy-rounded-strategy", RoundedStrategy);
+customElements.define("ll-strategy-mushroom-strategy", MushroomStrategy);
 
 const version = "v2.2.0";
 console.info(
-  "%c Rounded Strategy %c ".concat(version, " "),
+  "%c Mushroom Strategy %c ".concat(version, " "),
   "color: white; background: coral; font-weight: 700;", "color: coral; background: white; font-weight: 700;"
 );

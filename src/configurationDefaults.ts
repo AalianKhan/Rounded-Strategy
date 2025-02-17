@@ -2,7 +2,7 @@ import {generic} from "./types/strategy/generic";
 import StrategyDefaults = generic.StrategyDefaults;
 
 /**
- * Default configuration for the mushroom strategy.
+ * Default configuration for the rounded strategy.
  */
 export const configurationDefaults: StrategyDefaults = {
   areas: {

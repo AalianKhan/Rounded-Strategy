@@ -1,13 +1,13 @@
 {
-  "name": "mushroom-strategy",
+  "name": "rounded-strategy",
   "version": "2.2.0",
-  "description": "Automatically create a dashboard using Mushroom cards",
+  "description": "Automatically create a dashboard using Rounded cards",
   "keywords": [
     "strategy",
     "mushroom"
   ],
-  "homepage": "https://github.com/AalianKhan/mushroom-strategy",
-  "bugs": "https://github.com/AalianKhan/mushroom-strategy/issues",
+  "homepage": "https://github.com/AalianKhan/rounded-strategy",
+  "bugs": "https://github.com/AalianKhan/rounded-strategy/issues",
   "license": "MIT",
   "author": {
     "name": "Aalian Khan"
@@ -19,7 +19,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/AalianKhan/mushroom-strategy"
+    "url": "https://github.com/AalianKhan/rounded-strategy"
   },
   "dependencies": {
     "deepmerge": "^4"
@@ -37,6 +37,6 @@
   "scripts": {
     "build-dev": "webpack --config webpack.dev.config.ts",
     "build": "webpack",
-    "bump": "bump --preid alpha package.json package-lock.json README.md ./src/mushroom-strategy.ts"
+    "bump": "bump --preid alpha package.json package-lock.json README.md ./src/rounded-strategy.ts"
   }
 }

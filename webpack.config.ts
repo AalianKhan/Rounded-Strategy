@@ -4,10 +4,10 @@ import path from 'path';
 import webpack from 'webpack';
 
 const config: webpack.Configuration = {
-  entry: "./src/mushroom-strategy.ts",
+  entry: "./src/rounded-strategy.ts",
   mode: "production",
   output: {
-    filename: "mushroom-strategy.js",
+    filename: "rounded-strategy.js",
     path: path.resolve(__dirname, "dist"),
     clean: true,
   },

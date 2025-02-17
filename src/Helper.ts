@@ -122,7 +122,7 @@ class Helper {
   }
 
   /**
-   * Get the current debug mode of the mushroom strategy.
+   * Get the current debug mode of the rounded strategy.
    *
    * @returns {boolean}
    * @static

@@ -11,9 +11,9 @@ assignees: ''
 A clear and concise description of what the bug is.
 
 **Versions**
-* Mushroom-Strategy:
+* Rounded-Strategy:
 * HACS:
-* Mushroom:
+* Rounded:
 * Home Assistant:
 
 **To Reproduce**

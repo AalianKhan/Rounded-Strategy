@@ -9,19 +9,19 @@ import {HassServiceTarget} from "home-assistant-js-websocket";
 import StrategyArea = generic.StrategyArea;
 
 /**
- * Mushroom Dashboard Strategy.<br>
+ * Rounded Dashboard Strategy.<br>
  * <br>
- * Mushroom dashboard strategy provides a strategy for Home-Assistant to create a dashboard automatically.<br>
- * The strategy makes use Mushroom and Mini Graph cards to represent your entities.<br>
+ * Rounded dashboard strategy provides a strategy for Home-Assistant to create a dashboard automatically.<br>
+ * The strategy makes use Rounded and Mini Graph cards to represent your entities.<br>
  * <br>
  * Features:<br>
  *     🛠 Automatically create dashboard with three lines of yaml.<br>
  *     😍 Built-in Views for several standard domains.<br>
  *     🎨 Many options to customize to your needs.<br>
  * <br>
- * Check the [Repository]{@link https://github.com/AalianKhan/mushroom-strategy} for more information.
+ * Check the [Repository]{@link https://github.com/AalianKhan/rounded-strategy} for more information.
  */
-class MushroomStrategy extends HTMLTemplateElement {
+class RoundedStrategy extends HTMLTemplateElement {
   /**
    * Generate a dashboard.
    *
@@ -61,7 +61,7 @@ class MushroomStrategy extends HTMLTemplateElement {
           path: area.area_id ?? area.name,
           subview: true,
           strategy: {
-            type: "custom:mushroom-strategy",
+            type: "custom:rounded-strategy",
             options: {
               area,
             },
@@ -290,10 +290,10 @@ class MushroomStrategy extends HTMLTemplateElement {
   }
 }
 
-customElements.define("ll-strategy-mushroom-strategy", MushroomStrategy);
+customElements.define("ll-strategy-rounded-strategy", RoundedStrategy);
 
 const version = "v2.2.0";
 console.info(
-  "%c Mushroom Strategy %c ".concat(version, " "),
+  "%c Rounded Strategy %c ".concat(version, " "),
   "color: white; background: coral; font-weight: 700;", "color: coral; background: white; font-weight: 700;"
 );
